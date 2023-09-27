@@ -1,0 +1,168 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Ficção"
+    },
+    {
+      "id": 2,
+      "nome": "Não Ficção"
+    },
+    {
+      "id": 3,
+      "nome": "História"
+    },
+    [
+      {
+        "id": 4,
+        "nome": "ação"
+      },
+      {
+        "id": 5,
+        "nome": "drama"
+      },
+      {
+        "id": 6,
+        "nome": "astronomia"
+      },
+      {
+        "id": 7,
+        "nome": "ciencia"
+      },
+      {
+        "id": 8,
+        "nome": "romance"
+      },
+      {
+        "id": 9,
+        "nome": "comedia"
+      },
+      {
+        "id": 10,
+        "nome": "dorama"
+      },
+      {
+        "id": 11,
+        "nome": "desenho"
+      },
+      {
+        "id": 12,
+        "nome": "aventura"
+      }
+    ]
+  ],
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "Dom Quixote",
+      "autor": "Miguel de Cervantes",
+      "anoPublicacao": 1605,
+      "isbn": "978-85-359-0277-3",
+      "disponivel": true,
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "Origens",
+      "autor": "Neil deGrasse Tyson",
+      "anoPublicacao": 2017,
+      "isbn": "978-85-359-0650-4",
+      "disponivel": true,
+      "categoriaId": 2
+    },
+    {
+      "id": 3,
+      "titulo": "Uma Breve História do Tempo",
+      "autor": "Stephen Hawking",
+      "anoPublicacao": 1988,
+      "isbn": "978-85-359-0278-0",
+      "disponivel": false,
+      "categoriaId": 2
+    },
+    [
+      {
+        "id": 5,
+        "titulo": "Origens",
+        "autor": "Neil deGrasse Tyson",
+        "anoPublicacao": 2017,
+        "isbn": "978-85-359-0650-4",
+        "disponivel": true,
+        "categoriaId": 2
+      }
+    ],
+    [
+      {
+        "id": 6,
+        "titulo": "Os Bridgertons: o visconde que me amava",
+        "autor": "Julia kim",
+        "anoPublicacao": 2020,
+        "isbn": "978-85-359-0268-0",
+        "disponivel": false,
+        "categoriaId": 4
+      },
+      {
+        "id": 4,
+        "titulo": "Os Bridgertons:um perfeito cavalheiro ",
+        "autor": "Julia kim",
+        "anoPublicacao": 2020,
+        "isbn": "978-85-359-0267-0",
+        "disponivel": true,
+        "categoriaId": 4
+      },
+      {
+        "id": 7,
+        "titulo": "O Deus que Destroi Sonhos",
+        "autor": "Rodrigo Bibo",
+        "anoPublicacao": 2018,
+        "isbn": "978-85-359-0270-0",
+        "disponivel": false,
+        "categoriaId": 3
+      },
+      {
+        "id": 8,
+        "titulo": "O Diario de Anne Frank ",
+        "autor": "Anne Frank",
+        "anoPublicacao": 1947,
+        "isbn": "978-85-359-0270-0",
+        "disponivel": false,
+        "categoriaId": 2
+      },
+      {
+        "id": 9,
+        "titulo": "A Sombra do Vento",
+        "autor": "Carlos Ruiz",
+        "anoPublicacao": 2003,
+        "isbn": "978-85-359-0370-0",
+        "disponivel": true,
+        "categoriaId": 2
+      },
+      {
+        "id": 10,
+        "titulo": "O Peregrino",
+        "autor": "Jhon Bunyan",
+        "anoPublicacao": 1988,
+        "isbn": "978-85-359-0370-0",
+        "disponivel": true,
+        "categoriaId": 2
+      },
+      {
+        "id": 11,
+        "titulo": "E assim que Acaba",
+        "autor": "Colleen Hoover",
+        "anoPublicacao": 2021,
+        "isbn": "978-85-359-0270-0",
+        "disponivel": true,
+        "categoriaId": 2
+      },
+      {
+        "id": 12,
+        "titulo": "Todas as Suas Imperfeições",
+        "autor": "Colleen Hoover",
+        "anoPublicacao": 2021,
+        "isbn": "978-85-359-0970-0",
+        "disponivel": true,
+        "categoriaId": 2
+      }
+    ]
+  ]
+}
